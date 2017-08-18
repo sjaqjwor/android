@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.seung.voice.Main2Activity">
+    <Button
+        android:layout_height="100dp"
+        android:layout_width="100dp"
+        android:id="@+id/back"
+        android:text="back"
+        app:layout_constraintLeft_toRightOf="@+id/guideline"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        android:onClick="onButtonBack" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline"
+        app:layout_constraintGuide_begin="142dp"
+        android:orientation="vertical" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline2"
+        app:layout_constraintGuide_begin="300dp"
+        android:orientation="horizontal" />
+
+</android.support.constraint.ConstraintLayout>
