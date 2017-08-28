@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+    <Button
+        android:id="@+id/select"
+        android:text="@string/select"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        />
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        >
+        <RadioButton
+            android:id="@+id/rbutton"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="남성"
+            android:textColor="#ff55aaff"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+        <RadioButton
+            android:id="@+id/rbutton1"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="여성"
+            android:textColor="#ff55aaff"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+    </RadioGroup>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal|center_vertical"
+    android:paddingTop="20dp"
+    >
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="하루종일"
+        android:textSize="24dp"
+        android:paddingRight="10dp"
+        android:textColor="#ff55aaff"
+        />
+    <CheckBox
+        android:id="@+id/allDay"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        />
+
+    </LinearLayout>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="나는 누구일까요"
+        android:inputType="number"
+        android:selectAllOnFocus="true"
+        android:cursorVisible="false"
+        />
+    <TextView
+        android:id="@+id/tid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        />
+
+    </LinearLayout>
