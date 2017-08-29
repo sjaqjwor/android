@@ -24,7 +24,14 @@
         <activity android:name=".Scroll" />
         <activity android:name=".CheckRadio" />
         <activity android:name=".challege03" />
-        <activity android:name=".challenge04"></activity>
+        <activity android:name=".challenge04" />
+        <activity android:name=".examLayoutInflater" />
+        <activity
+            android:name=".SampleIntent"
+            android:label="메뉴 액티비티"
+            android:theme="@style/Theme.AppCompat.Dialog" />
+        <activity android:name=".ImageFindActivity"></activity>
     </application>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
 </manifest>
